@@ -10,7 +10,7 @@ stats.json
 # CDK asset staging directory
 .cdk.staging
 cdk.out
-cdk.json
+#cdk.json
 
 #Editor files
 .idea
