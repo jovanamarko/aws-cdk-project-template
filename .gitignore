@@ -1,0 +1,50 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+dist
+node_modules
+stats.json
+.pnp
+.pnp.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.json
+
+#Editor files
+.idea
+.vscode
+
+# dotenv environment variable files
+.env
+.env.dev
+.env.test
+.env.prod
+
+# misc
+.DS_Store
+npm-debug.log*
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Coverage directory used by tools like istanbul
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+### Node ###
+# Logs
+logs
+*.log
